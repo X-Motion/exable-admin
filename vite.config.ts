@@ -10,4 +10,8 @@ export default defineConfig({
       process: 'process/browser',
     }),
   ],
+  server: {
+    allowedHosts: ['test.accmov.com'],
+  }
 });
+
